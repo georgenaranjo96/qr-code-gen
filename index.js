@@ -3,7 +3,7 @@ const ejs = require('ejs');
 const path = require('path');
 const qrcode = require('qrcode');
 const app = express();
-const port = process.env.port ;
+const port = process.env.port || 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false}));
