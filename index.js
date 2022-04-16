@@ -28,4 +28,4 @@ app.post('/scan',(req, res, next) => {
     });
 });
 
-app.listen(port, console.log(`Listening on port ${port}`));
+app.listen(port, '0.0.0.0', console.log(`Listening on port ${port}`));
