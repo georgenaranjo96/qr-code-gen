@@ -14,8 +14,6 @@ app.set ("views", path.join(__dirname, "view"));
 
 app.use(express.static("public"));
 
-
-
 app.get('/', (req, res, next) => {
     res.render('index');
 });
